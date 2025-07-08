@@ -34,7 +34,7 @@ const DashBoardHome = () => {
   // console.log("showData",showData)
   const fullURL = window.location.href;
   const paramValue = showData?.userid || "";
-  const coreferralparamValue = showData?.reffereral_code || "";
+  const coreferralparamValue = showData?.coreferrer_code || "";
   const paramKey = "referral";
   const coreferralparamKey = "coreferral";
   const referralLink = `${fullURL}/registration?${paramKey}=${paramValue}&${coreferralparamKey}=${coreferralparamValue}`;
