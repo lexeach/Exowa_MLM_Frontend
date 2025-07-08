@@ -428,7 +428,7 @@ const Registration = () => {
                         <div className="lg:mb-4 mb-9 relative">
                           <input
                             type="text"
-                            placeholder="Co-Referral Code"
+                            placeholder="Partner Code"
                             className="w-full rounded-lg border h-[45px] border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-500 focus:border-[#4d33f8] focus:outline-none focus:ring-0 focus:ring-black"
                             name="coreferralCode"
                             onChange={handleOnchange}
