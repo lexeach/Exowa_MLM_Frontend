@@ -107,7 +107,7 @@ const App = () => {
   }, []);
 
   return (
-    <BrowserRouter basename="/autasis">
+    <BrowserRouter>
       <AuthRedirect />
       <ScrollToTop />
       {isuserIsLogin ? (
