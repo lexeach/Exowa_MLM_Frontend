@@ -33,8 +33,7 @@ const Login = () => {
       user_password: formData.password,
     };
     try {
-      //const response = await axios.post(`${BaseURI}/user/login`, apiData);
-     const response = await axios.post('https://exowa-mlm-backend.onrender.com/api/user/login', data);
+      const response = await axios.post(`${BaseURI}/api/user/login`, apiData);
       if (response.status === 200) {
         setisLoader(false);
         dispatch(
